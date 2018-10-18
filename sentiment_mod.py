@@ -69,7 +69,7 @@ testing_set = featuresets[10000:]
 training_set = featuresets[:10000]
 
 
-
+#pickle the classifier
 open_file = open("pickled_algos/originalnaivebayes5k.pickle", "rb")
 classifier = pickle.load(open_file)
 open_file.close()
