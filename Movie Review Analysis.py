@@ -33,8 +33,8 @@ class VoteClassifier(ClassifierI):                                              
         conf = choice_votes / len(votes)
         return conf
     
-short_pos = open("short_reviews/positive.txt","r").read()
-short_neg = open("short_reviews/negative.txt","r").read()
+short_pos = open("positive.txt","r").read()
+short_neg = open("negative.txt","r").read()
 
 all_words = []
 documents = []                                       #all the reviews are here
