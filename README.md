@@ -1,2 +1,4 @@
-# Movie-Classification
+# Movie Reviews - Sentiment Analysis
+Python 3.6
 Movie review classification using NLTK and Scikit-learn
+_______________________________________________________________________________________________________________
